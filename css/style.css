@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+:root {
+  --primary: #eb6440;
+  --secondary: #497174;
+  --tertiary: #d6e4e5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary);
+}
